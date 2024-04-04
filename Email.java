@@ -1,12 +1,9 @@
 package emailapp;
 
-public class Email {
+public class Email extends SystemEmail {
 	
 	private String emailAddress; 
 	private String password;
-	
-	
-	
 	public Email(String emailAddress, String password) {
 		super();
 		this.emailAddress = emailAddress;
